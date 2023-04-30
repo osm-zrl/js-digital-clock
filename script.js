@@ -1,3 +1,4 @@
+//Created by: https://github.com/osm-zrl
 const monthD = document.getElementById('monthD')
 const yearD = document.getElementById('yearD')
 const monthday = document.getElementById('monthday')
