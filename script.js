@@ -2,7 +2,6 @@ const monthD = document.getElementById('monthD')
 const yearD = document.getElementById('yearD')
 const monthday = document.getElementById('monthday')
 const dayD = document.querySelectorAll('.day')
-console.log(dayD)
 const hourD = document.getElementById('hourD')
 const minuteD = document.getElementById('minuteD')
 const secondD = document.getElementById('secondD')
@@ -103,7 +102,7 @@ setInterval(()=>{
             });
             dayD[5].style.color = 'white'
             break
-        case 7:
+        case 0:
             dayD.forEach(element => {
                 element.style.color = ''
             });
